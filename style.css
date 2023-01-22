@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    color: #2e2e2e;
+}
+
+.button {
+    display: inline-block;
+    background: none;
+    padding: 10px 24px;
+    box-shadow: 4px 4px 64px 4px rgba(224, 59, 224, 0.2);
+    border-radius: 100px;
+    margin: 16px 32px;
+    text-align: center;
+    border: 1px solid purple;
+    transition: background-color .6s, color .4s;
+    color: purple;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+    }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+.recipe-selector {
+    display: block;
+}
+
+h1 {
+    font-size: 4em;
+}
